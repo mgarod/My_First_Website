@@ -1,19 +1,96 @@
-#sidebar {
-	width: 10em;
-	height: 100%;
-
-	border: 4px solid navy;
-
-	background-color: green;
-}
-#sidebar li {
-	list-style: none;
-	color: white;
-	background-color: black;
-	font-size: 1.5em;
-	font-family: "Lucida Console", Monaco, monospace;
+html,body {
+  height:100%;
 }
 
-#main {
-	background-color: skyblue;
+* {
+  margin:0;
+  padding:0;
+}
+
+.wrapper{
+  height:100%;
+  overflow:hidden;
+}
+
+.top {
+  top:0;
+  height: 4.3em;
+  border-bottom: .2em solid black;
+  padding-left: 1em;
+
+  color: black;
+  font-weight: bold;
+  background: #5CAD5C;
+}
+
+p.header {
+  font-size: 4em;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.left {
+  width: 11em;
+  float:left;
+  min-height:100%;
+  border-right: .2em solid black;
+
+  background: linear-gradient(white,gray,black);
+}
+
+.menu > li {
+  padding-bottom: .7em;
+  padding-left: .3em;
+
+
+  text-align: left;
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
+}
+
+li.sign {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: inherit;
+
+  color: gray;
+  vertical-align: text-bottom;
+  font-size: 1em;
+  font-family: Arial, serif, sans-serif;
+  word-wrap: break-word;
+}
+
+.main {
+  margin-left:5em;
+  min-height:100%;
+
+  background:yellow;
+ }
+
+
+/***** LINK BEHAVIORS *****/
+/* unvisited link */
+a:link {
+  color: black;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {  
+  color: black;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
 }
