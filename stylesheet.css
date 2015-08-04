@@ -15,12 +15,13 @@ html,body {
 .top {
   top:0;
   height: 4.3em;
-  border-bottom: .2em solid black;
+  border-bottom: .15em solid black;
   padding-left: 1em;
 
-  color: black;
+  color: white;
   font-weight: bold;
-  background: #5CAD5C;
+  text-shadow: -3px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+  background: #c6ba94;
 }
 
 p.header {
@@ -28,13 +29,17 @@ p.header {
   font-family: "Courier New", Courier, monospace;
 }
 
+#sub {
+  font-size: .3em;
+}
+
 .left {
   width: 11em;
   float:left;
   min-height:100%;
-  border-right: .2em solid black;
+  /*border-right: .15em solid black;*/
 
-  background: linear-gradient(white,gray,black);
+  background: #94a0c6;
 }
 
 .menu > li {
@@ -53,7 +58,7 @@ li.sign {
   position: fixed;
   width: inherit;
 
-  color: gray;
+  color: black;
   vertical-align: text-bottom;
   font-size: 1em;
   font-family: Arial, serif, sans-serif;
@@ -64,7 +69,7 @@ li.sign {
   margin-left:5em;
   min-height:100%;
 
-  background: BlanchedAlmond;
+  background: #94a0c6;
  }
 
 
@@ -88,7 +93,7 @@ a:hover {
     color: black;
     font-weight: bold;
     text-decoration: none;
-    background-color: skyblue;
+    background-color: gray;
 }
 
 /* selected link */
