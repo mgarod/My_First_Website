@@ -12,15 +12,20 @@ html,body {
   overflow:hidden;
 }
 
+div {
+  box-shadow: .2em .2em .2em #888888;
+  border-radius:20px;
+  position: relative;
+}
+
+
 .top {
-  top:0;
   min-height: 4.3em;
-  max-width: 50em;
-  border-bottom: .15em solid black;
-  border-radius: 20px;
+  max-width: 40em;
   padding-left: 2em;
   margin-top: .5em;
-  margin-left: 1em;  
+  margin-left: 1em;
+  z-index: 5;
 
   color: blanchedalmond;
   font-weight: bold;
@@ -39,9 +44,8 @@ p.header {
   min-height:60%;
   margin-top: 2em;
   margin-left: .5em;
-  /*border-right: .15em solid black;*/
-  border-radius: 20px;
   background: #A7DBD8;
+  z-index: 2;
 }
 
 .menu > li {
@@ -49,20 +53,14 @@ p.header {
   padding-bottom: .5em;
   padding-left: .3em;
 
-
   text-align: left;
   font-size: 2em;
   font-family: "Courier New", Courier, monospace;
 }
 
 #sign {
-  bottom: 0;
-  left: 0;
-  /*position: fixed;*/
-  /*vertical-align: text-bottom;*/
   width: inherit;
 
-  color: black;
   font-size: 1em;
   font-family: Arial, serif, sans-serif;
   word-wrap: break-word;
@@ -72,11 +70,11 @@ p.header {
   min-height:100%;
   max-width:50em;
   margin-left:4em;
-  margin-top:.4em;
+  margin-top:-.5em;
   padding-left: 10em;
-  padding-top: 1em;
+  padding-top: 2em;
+  z-index: 0;
 
-  border-radius:20px;
   background: #E0E4CC;
  }
 
