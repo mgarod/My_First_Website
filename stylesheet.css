@@ -14,14 +14,18 @@ html,body {
 
 .top {
   top:0;
-  height: 4.3em;
+  min-height: 4.3em;
+  max-width: 50em;
   border-bottom: .15em solid black;
-  padding-left: 1em;
+  border-radius: 20px;
+  padding-left: 2em;
+  margin-top: .5em;
+  margin-left: 1em;  
 
-  color: white;
+  color: blanchedalmond;
   font-weight: bold;
   text-shadow: -3px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
-  background: #c6ba94;
+  background: #F38630;
 }
 
 p.header {
@@ -29,21 +33,20 @@ p.header {
   font-family: "Courier New", Courier, monospace;
 }
 
-#sub {
-  font-size: .3em;
-}
-
 .left {
-  width: 11em;
+  width: 12em;
   float:left;
-  min-height:100%;
+  min-height:60%;
+  margin-top: 2em;
+  margin-left: .5em;
   /*border-right: .15em solid black;*/
-
-  background: #94a0c6;
+  border-radius: 20px;
+  background: #A7DBD8;
 }
 
 .menu > li {
-  padding-bottom: .7em;
+  padding-top: .2em;
+  padding-bottom: .5em;
   padding-left: .3em;
 
 
@@ -55,21 +58,26 @@ p.header {
 #sign {
   bottom: 0;
   left: 0;
-  position: fixed;
+  /*position: fixed;*/
+  /*vertical-align: text-bottom;*/
   width: inherit;
 
   color: black;
-  vertical-align: text-bottom;
   font-size: 1em;
   font-family: Arial, serif, sans-serif;
   word-wrap: break-word;
 }
 
 .main {
-  margin-left:5em;
   min-height:100%;
+  max-width:50em;
+  margin-left:4em;
+  margin-top:.4em;
+  padding-left: 10em;
+  padding-top: 1em;
 
-  background: #94a0c6;
+  border-radius:20px;
+  background: #E0E4CC;
  }
 
 
