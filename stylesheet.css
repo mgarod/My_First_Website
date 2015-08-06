@@ -52,7 +52,7 @@ p.header {
   font-family: "Courier New", Courier, monospace;
 }
 
-li.sign {
+#sign {
   bottom: 0;
   left: 0;
   position: fixed;
