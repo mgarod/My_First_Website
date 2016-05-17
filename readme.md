@@ -1,6 +1,7 @@
 # Big Data Project #2 - Semantic Similarity
 CSCI 493.71, Spring 2016, Professor Lei Xie
-This file is best viewed as a GitHub Markdown ()
+
+This file is best viewed as a GitHub Markdown [Link](https://github.com/mgarod/My_First_Website/blob/master/readme.md)
 
 ### Authors
 - Michael Garod
